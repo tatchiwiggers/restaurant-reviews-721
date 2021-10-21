@@ -60,6 +60,3 @@ class RestaurantsController < ApplicationController
     @restaurant = Restaurant.find(params[:id])
   end
 end
-
-# ActiveModel::ForbiddenAttributesError
-# 1:10mins CRUD class
